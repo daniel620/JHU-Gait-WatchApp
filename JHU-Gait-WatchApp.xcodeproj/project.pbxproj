@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		904D3FBA28AB6E250039ECD1 /* JHU_Gait_WatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FB928AB6E250039ECD1 /* JHU_Gait_WatchAppApp.swift */; };
+		904D3FBC28AB6E250039ECD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FBB28AB6E250039ECD1 /* ContentView.swift */; };
+		904D3FBE28AB6E280039ECD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904D3FBD28AB6E280039ECD1 /* Assets.xcassets */; };
+		904D3FC128AB6E280039ECD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904D3FC028AB6E280039ECD1 /* Preview Assets.xcassets */; };
+		904D3FCC28AB6E280039ECD1 /* JHU_Gait_WatchAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FCB28AB6E280039ECD1 /* JHU_Gait_WatchAppTests.swift */; };
+		904D3FD728AB6E280039ECD1 /* JHU_Gait_WatchAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FD628AB6E280039ECD1 /* JHU_Gait_WatchAppUITests.swift */; };
+		904D3FDC28AB6E280039ECD1 /* JHU-Gait-WatchApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 904D3FDB28AB6E280039ECD1 /* JHU-Gait-WatchApp WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		904D3FE128AB6E290039ECD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904D3FE028AB6E290039ECD1 /* Assets.xcassets */; };
+		904D3FE828AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 904D3FE728AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		904D3FED28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FEC28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift */; };
+		904D3FEF28AB6E290039ECD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FEE28AB6E290039ECD1 /* ContentView.swift */; };
+		904D3FF128AB6E290039ECD1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FF028AB6E290039ECD1 /* NotificationController.swift */; };
+		904D3FF328AB6E290039ECD1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FF228AB6E290039ECD1 /* NotificationView.swift */; };
+		904D3FF528AB6E290039ECD1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FF428AB6E290039ECD1 /* ComplicationController.swift */; };
+		904D3FF728AB6E2A0039ECD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904D3FF628AB6E2A0039ECD1 /* Assets.xcassets */; };
+		904D3FFA28AB6E2A0039ECD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904D3FF928AB6E2A0039ECD1 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		904D3FC828AB6E280039ECD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904D3FAE28AB6E240039ECD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904D3FB528AB6E250039ECD1;
+			remoteInfo = "JHU-Gait-WatchApp";
+		};
+		904D3FD328AB6E280039ECD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904D3FAE28AB6E240039ECD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904D3FB528AB6E250039ECD1;
+			remoteInfo = "JHU-Gait-WatchApp";
+		};
+		904D3FDD28AB6E280039ECD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904D3FAE28AB6E240039ECD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904D3FDA28AB6E280039ECD1;
+			remoteInfo = "JHU-Gait-WatchApp WatchKit App";
+		};
+		904D3FE928AB6E290039ECD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904D3FAE28AB6E240039ECD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904D3FE628AB6E290039ECD1;
+			remoteInfo = "JHU-Gait-WatchApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		904D400228AB6E2A0039ECD1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				904D3FE828AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D400628AB6E2A0039ECD1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				904D3FDC28AB6E280039ECD1 /* JHU-Gait-WatchApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		904D3FB628AB6E250039ECD1 /* JHU-Gait-WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JHU-Gait-WatchApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904D3FB928AB6E250039ECD1 /* JHU_Gait_WatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHU_Gait_WatchAppApp.swift; sourceTree = "<group>"; };
+		904D3FBB28AB6E250039ECD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		904D3FBD28AB6E280039ECD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		904D3FC028AB6E280039ECD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		904D3FC228AB6E280039ECD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904D3FC728AB6E280039ECD1 /* JHU-Gait-WatchAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHU-Gait-WatchAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904D3FCB28AB6E280039ECD1 /* JHU_Gait_WatchAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHU_Gait_WatchAppTests.swift; sourceTree = "<group>"; };
+		904D3FCD28AB6E280039ECD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904D3FD228AB6E280039ECD1 /* JHU-Gait-WatchAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JHU-Gait-WatchAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904D3FD628AB6E280039ECD1 /* JHU_Gait_WatchAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHU_Gait_WatchAppUITests.swift; sourceTree = "<group>"; };
+		904D3FD828AB6E280039ECD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904D3FDB28AB6E280039ECD1 /* JHU-Gait-WatchApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JHU-Gait-WatchApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904D3FE028AB6E290039ECD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		904D3FE228AB6E290039ECD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904D3FE728AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JHU-Gait-WatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		904D3FEC28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHU_Gait_WatchAppApp.swift; sourceTree = "<group>"; };
+		904D3FEE28AB6E290039ECD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		904D3FF028AB6E290039ECD1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		904D3FF228AB6E290039ECD1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		904D3FF428AB6E290039ECD1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		904D3FF628AB6E2A0039ECD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		904D3FF928AB6E2A0039ECD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		904D3FFB28AB6E2A0039ECD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904D3FFC28AB6E2A0039ECD1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904D3FB328AB6E250039ECD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D3FC428AB6E280039ECD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D3FCF28AB6E280039ECD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D3FE428AB6E290039ECD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		904D3FAD28AB6E240039ECD1 = {
+			isa = PBXGroup;
+			children = (
+				904D3FB828AB6E250039ECD1 /* JHU-Gait-WatchApp */,
+				904D3FCA28AB6E280039ECD1 /* JHU-Gait-WatchAppTests */,
+				904D3FD528AB6E280039ECD1 /* JHU-Gait-WatchAppUITests */,
+				904D3FDF28AB6E280039ECD1 /* JHU-Gait-WatchApp WatchKit App */,
+				904D3FEB28AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension */,
+				904D3FB728AB6E250039ECD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		904D3FB728AB6E250039ECD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				904D3FB628AB6E250039ECD1 /* JHU-Gait-WatchApp.app */,
+				904D3FC728AB6E280039ECD1 /* JHU-Gait-WatchAppTests.xctest */,
+				904D3FD228AB6E280039ECD1 /* JHU-Gait-WatchAppUITests.xctest */,
+				904D3FDB28AB6E280039ECD1 /* JHU-Gait-WatchApp WatchKit App.app */,
+				904D3FE728AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		904D3FB828AB6E250039ECD1 /* JHU-Gait-WatchApp */ = {
+			isa = PBXGroup;
+			children = (
+				904D3FB928AB6E250039ECD1 /* JHU_Gait_WatchAppApp.swift */,
+				904D3FBB28AB6E250039ECD1 /* ContentView.swift */,
+				904D3FBD28AB6E280039ECD1 /* Assets.xcassets */,
+				904D3FC228AB6E280039ECD1 /* Info.plist */,
+				904D3FBF28AB6E280039ECD1 /* Preview Content */,
+			);
+			path = "JHU-Gait-WatchApp";
+			sourceTree = "<group>";
+		};
+		904D3FBF28AB6E280039ECD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				904D3FC028AB6E280039ECD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		904D3FCA28AB6E280039ECD1 /* JHU-Gait-WatchAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				904D3FCB28AB6E280039ECD1 /* JHU_Gait_WatchAppTests.swift */,
+				904D3FCD28AB6E280039ECD1 /* Info.plist */,
+			);
+			path = "JHU-Gait-WatchAppTests";
+			sourceTree = "<group>";
+		};
+		904D3FD528AB6E280039ECD1 /* JHU-Gait-WatchAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				904D3FD628AB6E280039ECD1 /* JHU_Gait_WatchAppUITests.swift */,
+				904D3FD828AB6E280039ECD1 /* Info.plist */,
+			);
+			path = "JHU-Gait-WatchAppUITests";
+			sourceTree = "<group>";
+		};
+		904D3FDF28AB6E280039ECD1 /* JHU-Gait-WatchApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				904D3FE028AB6E290039ECD1 /* Assets.xcassets */,
+				904D3FE228AB6E290039ECD1 /* Info.plist */,
+			);
+			path = "JHU-Gait-WatchApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		904D3FEB28AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				904D3FEC28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift */,
+				904D3FEE28AB6E290039ECD1 /* ContentView.swift */,
+				904D3FF028AB6E290039ECD1 /* NotificationController.swift */,
+				904D3FF228AB6E290039ECD1 /* NotificationView.swift */,
+				904D3FF428AB6E290039ECD1 /* ComplicationController.swift */,
+				904D3FF628AB6E2A0039ECD1 /* Assets.xcassets */,
+				904D3FFB28AB6E2A0039ECD1 /* Info.plist */,
+				904D3FFC28AB6E2A0039ECD1 /* PushNotificationPayload.apns */,
+				904D3FF828AB6E2A0039ECD1 /* Preview Content */,
+			);
+			path = "JHU-Gait-WatchApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		904D3FF828AB6E2A0039ECD1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				904D3FF928AB6E2A0039ECD1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		904D3FB528AB6E250039ECD1 /* JHU-Gait-WatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904D400728AB6E2A0039ECD1 /* Build configuration list for PBXNativeTarget "JHU-Gait-WatchApp" */;
+			buildPhases = (
+				904D3FB228AB6E250039ECD1 /* Sources */,
+				904D3FB328AB6E250039ECD1 /* Frameworks */,
+				904D3FB428AB6E250039ECD1 /* Resources */,
+				904D400628AB6E2A0039ECD1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904D3FDE28AB6E280039ECD1 /* PBXTargetDependency */,
+			);
+			name = "JHU-Gait-WatchApp";
+			productName = "JHU-Gait-WatchApp";
+			productReference = 904D3FB628AB6E250039ECD1 /* JHU-Gait-WatchApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		904D3FC628AB6E280039ECD1 /* JHU-Gait-WatchAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904D400A28AB6E2A0039ECD1 /* Build configuration list for PBXNativeTarget "JHU-Gait-WatchAppTests" */;
+			buildPhases = (
+				904D3FC328AB6E280039ECD1 /* Sources */,
+				904D3FC428AB6E280039ECD1 /* Frameworks */,
+				904D3FC528AB6E280039ECD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904D3FC928AB6E280039ECD1 /* PBXTargetDependency */,
+			);
+			name = "JHU-Gait-WatchAppTests";
+			productName = "JHU-Gait-WatchAppTests";
+			productReference = 904D3FC728AB6E280039ECD1 /* JHU-Gait-WatchAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		904D3FD128AB6E280039ECD1 /* JHU-Gait-WatchAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904D400D28AB6E2A0039ECD1 /* Build configuration list for PBXNativeTarget "JHU-Gait-WatchAppUITests" */;
+			buildPhases = (
+				904D3FCE28AB6E280039ECD1 /* Sources */,
+				904D3FCF28AB6E280039ECD1 /* Frameworks */,
+				904D3FD028AB6E280039ECD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904D3FD428AB6E280039ECD1 /* PBXTargetDependency */,
+			);
+			name = "JHU-Gait-WatchAppUITests";
+			productName = "JHU-Gait-WatchAppUITests";
+			productReference = 904D3FD228AB6E280039ECD1 /* JHU-Gait-WatchAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		904D3FDA28AB6E280039ECD1 /* JHU-Gait-WatchApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904D400328AB6E2A0039ECD1 /* Build configuration list for PBXNativeTarget "JHU-Gait-WatchApp WatchKit App" */;
+			buildPhases = (
+				904D3FD928AB6E280039ECD1 /* Resources */,
+				904D400228AB6E2A0039ECD1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904D3FEA28AB6E290039ECD1 /* PBXTargetDependency */,
+			);
+			name = "JHU-Gait-WatchApp WatchKit App";
+			productName = "JHU-Gait-WatchApp WatchKit App";
+			productReference = 904D3FDB28AB6E280039ECD1 /* JHU-Gait-WatchApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		904D3FE628AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904D3FFF28AB6E2A0039ECD1 /* Build configuration list for PBXNativeTarget "JHU-Gait-WatchApp WatchKit Extension" */;
+			buildPhases = (
+				904D3FE328AB6E290039ECD1 /* Sources */,
+				904D3FE428AB6E290039ECD1 /* Frameworks */,
+				904D3FE528AB6E290039ECD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JHU-Gait-WatchApp WatchKit Extension";
+			productName = "JHU-Gait-WatchApp WatchKit Extension";
+			productReference = 904D3FE728AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904D3FAE28AB6E240039ECD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					904D3FB528AB6E250039ECD1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					904D3FC628AB6E280039ECD1 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 904D3FB528AB6E250039ECD1;
+					};
+					904D3FD128AB6E280039ECD1 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 904D3FB528AB6E250039ECD1;
+					};
+					904D3FDA28AB6E280039ECD1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					904D3FE628AB6E290039ECD1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 904D3FB128AB6E240039ECD1 /* Build configuration list for PBXProject "JHU-Gait-WatchApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 904D3FAD28AB6E240039ECD1;
+			productRefGroup = 904D3FB728AB6E250039ECD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904D3FB528AB6E250039ECD1 /* JHU-Gait-WatchApp */,
+				904D3FC628AB6E280039ECD1 /* JHU-Gait-WatchAppTests */,
+				904D3FD128AB6E280039ECD1 /* JHU-Gait-WatchAppUITests */,
+				904D3FDA28AB6E280039ECD1 /* JHU-Gait-WatchApp WatchKit App */,
+				904D3FE628AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		904D3FB428AB6E250039ECD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D3FC128AB6E280039ECD1 /* Preview Assets.xcassets in Resources */,
+				904D3FBE28AB6E280039ECD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D3FC528AB6E280039ECD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D3FD028AB6E280039ECD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D3FD928AB6E280039ECD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D3FE128AB6E290039ECD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D3FE528AB6E290039ECD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D3FFA28AB6E2A0039ECD1 /* Preview Assets.xcassets in Resources */,
+				904D3FF728AB6E2A0039ECD1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904D3FB228AB6E250039ECD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D3FBC28AB6E250039ECD1 /* ContentView.swift in Sources */,
+				904D3FBA28AB6E250039ECD1 /* JHU_Gait_WatchAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D3FC328AB6E280039ECD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D3FCC28AB6E280039ECD1 /* JHU_Gait_WatchAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D3FCE28AB6E280039ECD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D3FD728AB6E280039ECD1 /* JHU_Gait_WatchAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904D3FE328AB6E290039ECD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904D3FF128AB6E290039ECD1 /* NotificationController.swift in Sources */,
+				904D3FEF28AB6E290039ECD1 /* ContentView.swift in Sources */,
+				904D3FF528AB6E290039ECD1 /* ComplicationController.swift in Sources */,
+				904D3FED28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift in Sources */,
+				904D3FF328AB6E290039ECD1 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		904D3FC928AB6E280039ECD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904D3FB528AB6E250039ECD1 /* JHU-Gait-WatchApp */;
+			targetProxy = 904D3FC828AB6E280039ECD1 /* PBXContainerItemProxy */;
+		};
+		904D3FD428AB6E280039ECD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904D3FB528AB6E250039ECD1 /* JHU-Gait-WatchApp */;
+			targetProxy = 904D3FD328AB6E280039ECD1 /* PBXContainerItemProxy */;
+		};
+		904D3FDE28AB6E280039ECD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904D3FDA28AB6E280039ECD1 /* JHU-Gait-WatchApp WatchKit App */;
+			targetProxy = 904D3FDD28AB6E280039ECD1 /* PBXContainerItemProxy */;
+		};
+		904D3FEA28AB6E290039ECD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904D3FE628AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension */;
+			targetProxy = 904D3FE928AB6E290039ECD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		904D3FFD28AB6E2A0039ECD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		904D3FFE28AB6E2A0039ECD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		904D400028AB6E2A0039ECD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JHU-Gait-WatchApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = H6426HS435;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "JHU-Gait-WatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "H.L.ZUO.JHU-Gait-WatchApp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		904D400128AB6E2A0039ECD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JHU-Gait-WatchApp WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = H6426HS435;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "JHU-Gait-WatchApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "H.L.ZUO.JHU-Gait-WatchApp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		904D400428AB6E2A0039ECD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6426HS435;
+				IBSC_MODULE = JHU_Gait_WatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "JHU-Gait-WatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "H.L.ZUO.JHU-Gait-WatchApp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		904D400528AB6E2A0039ECD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6426HS435;
+				IBSC_MODULE = JHU_Gait_WatchApp_WatchKit_Extension;
+				INFOPLIST_FILE = "JHU-Gait-WatchApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "H.L.ZUO.JHU-Gait-WatchApp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		904D400828AB6E2A0039ECD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JHU-Gait-WatchApp/Preview Content\"";
+				DEVELOPMENT_TEAM = H6426HS435;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "JHU-Gait-WatchApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "H.L.ZUO.JHU-Gait-WatchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		904D400928AB6E2A0039ECD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JHU-Gait-WatchApp/Preview Content\"";
+				DEVELOPMENT_TEAM = H6426HS435;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "JHU-Gait-WatchApp/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "H.L.ZUO.JHU-Gait-WatchApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904D400B28AB6E2A0039ECD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6426HS435;
+				INFOPLIST_FILE = "JHU-Gait-WatchAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "H.L.ZUO.JHU-Gait-WatchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHU-Gait-WatchApp.app/JHU-Gait-WatchApp";
+			};
+			name = Debug;
+		};
+		904D400C28AB6E2A0039ECD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6426HS435;
+				INFOPLIST_FILE = "JHU-Gait-WatchAppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "H.L.ZUO.JHU-Gait-WatchAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHU-Gait-WatchApp.app/JHU-Gait-WatchApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904D400E28AB6E2A0039ECD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6426HS435;
+				INFOPLIST_FILE = "JHU-Gait-WatchAppUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "H.L.ZUO.JHU-Gait-WatchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JHU-Gait-WatchApp";
+			};
+			name = Debug;
+		};
+		904D400F28AB6E2A0039ECD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H6426HS435;
+				INFOPLIST_FILE = "JHU-Gait-WatchAppUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "H.L.ZUO.JHU-Gait-WatchAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "JHU-Gait-WatchApp";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		904D3FB128AB6E240039ECD1 /* Build configuration list for PBXProject "JHU-Gait-WatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904D3FFD28AB6E2A0039ECD1 /* Debug */,
+				904D3FFE28AB6E2A0039ECD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904D3FFF28AB6E2A0039ECD1 /* Build configuration list for PBXNativeTarget "JHU-Gait-WatchApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904D400028AB6E2A0039ECD1 /* Debug */,
+				904D400128AB6E2A0039ECD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904D400328AB6E2A0039ECD1 /* Build configuration list for PBXNativeTarget "JHU-Gait-WatchApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904D400428AB6E2A0039ECD1 /* Debug */,
+				904D400528AB6E2A0039ECD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904D400728AB6E2A0039ECD1 /* Build configuration list for PBXNativeTarget "JHU-Gait-WatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904D400828AB6E2A0039ECD1 /* Debug */,
+				904D400928AB6E2A0039ECD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904D400A28AB6E2A0039ECD1 /* Build configuration list for PBXNativeTarget "JHU-Gait-WatchAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904D400B28AB6E2A0039ECD1 /* Debug */,
+				904D400C28AB6E2A0039ECD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904D400D28AB6E2A0039ECD1 /* Build configuration list for PBXNativeTarget "JHU-Gait-WatchAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904D400E28AB6E2A0039ECD1 /* Debug */,
+				904D400F28AB6E2A0039ECD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 904D3FAE28AB6E240039ECD1 /* Project object */;
+}
