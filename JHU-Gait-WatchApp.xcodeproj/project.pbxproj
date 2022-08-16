@@ -17,12 +17,14 @@
 		904D3FE128AB6E290039ECD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904D3FE028AB6E290039ECD1 /* Assets.xcassets */; };
 		904D3FE828AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 904D3FE728AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		904D3FED28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FEC28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift */; };
-		904D3FEF28AB6E290039ECD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FEE28AB6E290039ECD1 /* ContentView.swift */; };
+		904D3FEF28AB6E290039ECD1 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FEE28AB6E290039ECD1 /* StartView.swift */; };
 		904D3FF128AB6E290039ECD1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FF028AB6E290039ECD1 /* NotificationController.swift */; };
 		904D3FF328AB6E290039ECD1 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FF228AB6E290039ECD1 /* NotificationView.swift */; };
 		904D3FF528AB6E290039ECD1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FF428AB6E290039ECD1 /* ComplicationController.swift */; };
 		904D3FF728AB6E2A0039ECD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904D3FF628AB6E2A0039ECD1 /* Assets.xcassets */; };
 		904D3FFA28AB6E2A0039ECD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904D3FF928AB6E2A0039ECD1 /* Preview Assets.xcassets */; };
+		904D401B28ABD59B0039ECD1 /* SessionPagingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D401A28ABD59B0039ECD1 /* SessionPagingView.swift */; };
+		904D402228ABD7860039ECD1 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D402128ABD7860039ECD1 /* MetricsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,7 +101,7 @@
 		904D3FE228AB6E290039ECD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		904D3FE728AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JHU-Gait-WatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		904D3FEC28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHU_Gait_WatchAppApp.swift; sourceTree = "<group>"; };
-		904D3FEE28AB6E290039ECD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		904D3FEE28AB6E290039ECD1 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		904D3FF028AB6E290039ECD1 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		904D3FF228AB6E290039ECD1 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		904D3FF428AB6E290039ECD1 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,8 @@
 		904D3FF928AB6E2A0039ECD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		904D3FFB28AB6E2A0039ECD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		904D3FFC28AB6E2A0039ECD1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		904D401A28ABD59B0039ECD1 /* SessionPagingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPagingView.swift; sourceTree = "<group>"; };
+		904D402128ABD7860039ECD1 /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,7 +220,9 @@
 			isa = PBXGroup;
 			children = (
 				904D3FEC28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift */,
-				904D3FEE28AB6E290039ECD1 /* ContentView.swift */,
+				904D3FEE28AB6E290039ECD1 /* StartView.swift */,
+				904D401A28ABD59B0039ECD1 /* SessionPagingView.swift */,
+				904D402128ABD7860039ECD1 /* MetricsView.swift */,
 				904D3FF028AB6E290039ECD1 /* NotificationController.swift */,
 				904D3FF228AB6E290039ECD1 /* NotificationView.swift */,
 				904D3FF428AB6E290039ECD1 /* ComplicationController.swift */,
@@ -452,10 +458,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				904D3FF128AB6E290039ECD1 /* NotificationController.swift in Sources */,
-				904D3FEF28AB6E290039ECD1 /* ContentView.swift in Sources */,
+				904D402228ABD7860039ECD1 /* MetricsView.swift in Sources */,
+				904D3FEF28AB6E290039ECD1 /* StartView.swift in Sources */,
 				904D3FF528AB6E290039ECD1 /* ComplicationController.swift in Sources */,
 				904D3FED28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift in Sources */,
 				904D3FF328AB6E290039ECD1 /* NotificationView.swift in Sources */,
+				904D401B28ABD59B0039ECD1 /* SessionPagingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

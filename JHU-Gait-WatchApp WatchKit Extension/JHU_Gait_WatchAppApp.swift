@@ -12,7 +12,7 @@ struct JHU_Gait_WatchAppApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                StartView()
             }
         }
 
