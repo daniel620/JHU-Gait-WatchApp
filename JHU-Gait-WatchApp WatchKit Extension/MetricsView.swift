@@ -11,8 +11,7 @@ struct MetricsView: View {
     static let formatter: MeasurementFormatter = {
         let formatter = MeasurementFormatter()
 //            formatter. = .numeric(precision:.fractionaLength(0))
-    
-        formatter.unitStyle = .long
+        formatter.unitStyle = .short
         formatter.unitOptions = .providedUnit
         return formatter
         }()

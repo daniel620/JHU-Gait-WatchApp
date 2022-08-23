@@ -14,8 +14,7 @@ struct StartView: View {
     var body: some View {
 //        Text("Hello, World!")
 //            .padding()
-//        Text("Sandbow watch APP" )
-//            .padding()
+
         List(workoutTypes) {workoutType in
             NavigationLink(
                 workoutType.name,
@@ -34,11 +33,12 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+
 extension HKWorkoutActivityType: Identifiable{
     public var id: UInt{
         rawValue
     }
-    
+
     var name: String{
         switch self{
         case .running:
