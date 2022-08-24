@@ -14,15 +14,15 @@ struct StartView: View {
     var body: some View {
 //        Text("Hello, World!")
 //            .padding()
-
         List(workoutTypes) {workoutType in
             NavigationLink(
+//                The navigation links to the destination and here will be a text view.
                 workoutType.name,
                 destination: Text("my"+workoutType.name)
             ).padding(
                 EdgeInsets(top: 15, leading: 5, bottom: 15, trailing: 5)
             )
-        }.listStyle(CarouselListStyle())
+        }.listStyle(.carousel)//The carousel style can provide depth view when rolling the list
         .navigationBarTitle("Workouts")
     }
 }

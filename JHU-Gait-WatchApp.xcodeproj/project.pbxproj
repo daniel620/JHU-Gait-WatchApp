@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9007ED0828B5C4CE00E61AB8 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9007ED0728B5C4CE00E61AB8 /* ElapsedTimeView.swift */; };
+		9007ED0A28B5CD0200E61AB8 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9007ED0928B5CD0200E61AB8 /* ControlsView.swift */; };
 		904D3FBA28AB6E250039ECD1 /* JHU_Gait_WatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FB928AB6E250039ECD1 /* JHU_Gait_WatchAppApp.swift */; };
 		904D3FBC28AB6E250039ECD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FBB28AB6E250039ECD1 /* ContentView.swift */; };
 		904D3FBE28AB6E280039ECD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904D3FBD28AB6E280039ECD1 /* Assets.xcassets */; };
@@ -84,6 +86,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9007ED0728B5C4CE00E61AB8 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
+		9007ED0928B5CD0200E61AB8 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
 		904D3FB628AB6E250039ECD1 /* JHU-Gait-WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JHU-Gait-WatchApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		904D3FB928AB6E250039ECD1 /* JHU_Gait_WatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHU_Gait_WatchAppApp.swift; sourceTree = "<group>"; };
 		904D3FBB28AB6E250039ECD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -223,6 +227,8 @@
 				904D3FEE28AB6E290039ECD1 /* StartView.swift */,
 				904D401A28ABD59B0039ECD1 /* SessionPagingView.swift */,
 				904D402128ABD7860039ECD1 /* MetricsView.swift */,
+				9007ED0928B5CD0200E61AB8 /* ControlsView.swift */,
+				9007ED0728B5C4CE00E61AB8 /* ElapsedTimeView.swift */,
 				904D3FF028AB6E290039ECD1 /* NotificationController.swift */,
 				904D3FF228AB6E290039ECD1 /* NotificationView.swift */,
 				904D3FF428AB6E290039ECD1 /* ComplicationController.swift */,
@@ -457,6 +463,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9007ED0828B5C4CE00E61AB8 /* ElapsedTimeView.swift in Sources */,
+				9007ED0A28B5CD0200E61AB8 /* ControlsView.swift in Sources */,
 				904D3FF128AB6E290039ECD1 /* NotificationController.swift in Sources */,
 				904D402228ABD7860039ECD1 /* MetricsView.swift in Sources */,
 				904D3FEF28AB6E290039ECD1 /* StartView.swift in Sources */,
@@ -624,7 +632,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -649,7 +657,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};

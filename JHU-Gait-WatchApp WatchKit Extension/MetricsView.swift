@@ -7,47 +7,58 @@
 
 import SwiftUI
 
+
 struct MetricsView: View {
-    static let formatter: MeasurementFormatter = {
-        let formatter = MeasurementFormatter()
-//            formatter. = .numeric(precision:.fractionaLength(0))
-        formatter.unitStyle = .short
-        formatter.unitOptions = .providedUnit
-        return formatter
-        }()
     
     var body: some View {
+        
         VStack(alignment: .leading){
-            Text("03:15.23")
-                .foregroundColor(Color.yellow)
-                .fontWeight(.semibold)
+            ElapsedTimeView(
+                elapsedTime: 3 * 60 + 15.24, showSubseconds: true
+            ).foregroundColor(Color.yellow)
             Text(
                 Measurement(
                     value: 47,
                     unit: UnitEnergy.kilocalories
-                ),
-                formatter: Self.formatter
+                ).formatted(
+                    .measurement(
+                        width: .abbreviated,
+                        usage: .workout,
+                        numberFormatStyle: .number.precision(.fractionLength(0))
+                        //numberFormat:.numeric(precision:.fractionLength(0))
+                    )
+                )
             )
+            
             Text(
-                "153" + " bmp"
+                153.formatted(
+                    .number.precision(.fractionLength(0))
+                )
+                + " bmp"
             )
+            
             Text(
                 Measurement(
                     value: 515,
                     unit: UnitLength.meters
-                ),
-                formatter: Self.formatter
+                ).formatted(
+                    .measurement(
+                        width: .abbreviated,
+                        usage: .road
+                    )
+                )
             )
         }
         .font(.system(.title, design: .rounded)
-//                .monospacedDigit()
-//                .lowercaseSmcallCaps()
+            .monospacedDigit()
+            .lowercaseSmallCaps()
         )
-//        .frame(minWidth: .infinity, alignment: .leading)
-//        .ignoresSafeArea(edges: .bottom)
-//        .scenePadding()
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .ignoresSafeArea(edges: .bottom)
+        .scenePadding()
     }
 }
+
 
 struct MetricsView_Previews: PreviewProvider {
     static var previews: some View {
