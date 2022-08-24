@@ -93,7 +93,8 @@
 		9007ED0928B5CD0200E61AB8 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
 		9007ED0B28B5D52800E61AB8 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
 		900DC40528B5FDE300B5048A /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
-		900DC40728B6057200B5048A /* data flow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "data flow.jpeg"; path = "../../../../Downloads/data flow.jpeg"; sourceTree = "<group>"; };
+		900DC40E28B6130700B5048A /* DataFlow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DataFlow.jpeg; sourceTree = "<group>"; };
+		900DC40F28B6130700B5048A /* SessionPagingView.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = SessionPagingView.mov; sourceTree = "<group>"; };
 		904D3FB628AB6E250039ECD1 /* JHU-Gait-WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JHU-Gait-WatchApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		904D3FB928AB6E250039ECD1 /* JHU_Gait_WatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHU_Gait_WatchAppApp.swift; sourceTree = "<group>"; };
 		904D3FBB28AB6E250039ECD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -155,9 +156,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		900DC40D28B6119E00B5048A /* JHU-Gait-WatchApp Demo */ = {
+			isa = PBXGroup;
+			children = (
+				900DC40E28B6130700B5048A /* DataFlow.jpeg */,
+				900DC40F28B6130700B5048A /* SessionPagingView.mov */,
+			);
+			path = "JHU-Gait-WatchApp Demo";
+			sourceTree = "<group>";
+		};
 		904D3FAD28AB6E240039ECD1 = {
 			isa = PBXGroup;
 			children = (
+				900DC40D28B6119E00B5048A /* JHU-Gait-WatchApp Demo */,
 				904D3FB828AB6E250039ECD1 /* JHU-Gait-WatchApp */,
 				904D3FCA28AB6E280039ECD1 /* JHU-Gait-WatchAppTests */,
 				904D3FD528AB6E280039ECD1 /* JHU-Gait-WatchAppUITests */,
@@ -229,7 +240,6 @@
 		904D3FEB28AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				900DC40728B6057200B5048A /* data flow.jpeg */,
 				904D3FEC28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift */,
 				904D3FEE28AB6E290039ECD1 /* StartView.swift */,
 				9007ED0B28B5D52800E61AB8 /* SummaryView.swift */,
@@ -437,7 +447,6 @@
 			files = (
 				904D3FFA28AB6E2A0039ECD1 /* Preview Assets.xcassets in Resources */,
 				904D3FF728AB6E2A0039ECD1 /* Assets.xcassets in Resources */,
-				900DC40828B6057200B5048A /* data flow.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
