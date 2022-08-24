@@ -11,6 +11,7 @@ import WatchKit
 //WatchKit provide NowPlayingView()
 
 struct SessionPagingView: View {
+    @EnvironmentObject var workoutManager: WorkoutManager
     @State private var selection: Tab = .metrics
     
     enum Tab{
@@ -25,6 +26,18 @@ struct SessionPagingView: View {
             ControlsView().tag(Tab.controls)
             MetricsView().tag(Tab.metrics)
             NowPlayingView().tag(Tab.nowPlaying)// provided by WatchKit imported
+        }
+        .navigationTitle(workoutManager.selectedWorkout?.name ?? "")
+        .navigationBarBackButtonHidden(true) // BackButton is hidden because do not want to users to get back to the start view while workout
+        .navigationBarHidden(selection == .nowPlaying) // When the nowPlaying is shown we want to hide the navigation bar
+        .onChange(of: workoutManager.running){
+            _ in displayMetricsView()
+        }
+        // When some one pause or resume their workout, they shouldn't swipe to the metics view. We can do this by adding an onChange re-modifier
+    }
+    private func displayMetricsView(){
+        withAnimation{
+            selection = .metrics
         }
     }
 }
