@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		9007ED0828B5C4CE00E61AB8 /* ElapsedTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9007ED0728B5C4CE00E61AB8 /* ElapsedTimeView.swift */; };
 		9007ED0A28B5CD0200E61AB8 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9007ED0928B5CD0200E61AB8 /* ControlsView.swift */; };
+		9007ED0C28B5D52800E61AB8 /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9007ED0B28B5D52800E61AB8 /* SummaryView.swift */; };
+		900DC40628B5FDE300B5048A /* ActivityRingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 900DC40528B5FDE300B5048A /* ActivityRingsView.swift */; };
+		900DC40828B6057200B5048A /* data flow.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 900DC40728B6057200B5048A /* data flow.jpeg */; };
 		904D3FBA28AB6E250039ECD1 /* JHU_Gait_WatchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FB928AB6E250039ECD1 /* JHU_Gait_WatchAppApp.swift */; };
 		904D3FBC28AB6E250039ECD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904D3FBB28AB6E250039ECD1 /* ContentView.swift */; };
 		904D3FBE28AB6E280039ECD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904D3FBD28AB6E280039ECD1 /* Assets.xcassets */; };
@@ -88,6 +91,9 @@
 /* Begin PBXFileReference section */
 		9007ED0728B5C4CE00E61AB8 /* ElapsedTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeView.swift; sourceTree = "<group>"; };
 		9007ED0928B5CD0200E61AB8 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		9007ED0B28B5D52800E61AB8 /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		900DC40528B5FDE300B5048A /* ActivityRingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingsView.swift; sourceTree = "<group>"; };
+		900DC40728B6057200B5048A /* data flow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "data flow.jpeg"; path = "../../../../Downloads/data flow.jpeg"; sourceTree = "<group>"; };
 		904D3FB628AB6E250039ECD1 /* JHU-Gait-WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JHU-Gait-WatchApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		904D3FB928AB6E250039ECD1 /* JHU_Gait_WatchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHU_Gait_WatchAppApp.swift; sourceTree = "<group>"; };
 		904D3FBB28AB6E250039ECD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -223,8 +229,11 @@
 		904D3FEB28AB6E290039ECD1 /* JHU-Gait-WatchApp WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				900DC40728B6057200B5048A /* data flow.jpeg */,
 				904D3FEC28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift */,
 				904D3FEE28AB6E290039ECD1 /* StartView.swift */,
+				9007ED0B28B5D52800E61AB8 /* SummaryView.swift */,
+				900DC40528B5FDE300B5048A /* ActivityRingsView.swift */,
 				904D401A28ABD59B0039ECD1 /* SessionPagingView.swift */,
 				904D402128ABD7860039ECD1 /* MetricsView.swift */,
 				9007ED0928B5CD0200E61AB8 /* ControlsView.swift */,
@@ -428,6 +437,7 @@
 			files = (
 				904D3FFA28AB6E2A0039ECD1 /* Preview Assets.xcassets in Resources */,
 				904D3FF728AB6E2A0039ECD1 /* Assets.xcassets in Resources */,
+				900DC40828B6057200B5048A /* data flow.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,10 +476,12 @@
 				9007ED0828B5C4CE00E61AB8 /* ElapsedTimeView.swift in Sources */,
 				9007ED0A28B5CD0200E61AB8 /* ControlsView.swift in Sources */,
 				904D3FF128AB6E290039ECD1 /* NotificationController.swift in Sources */,
+				900DC40628B5FDE300B5048A /* ActivityRingsView.swift in Sources */,
 				904D402228ABD7860039ECD1 /* MetricsView.swift in Sources */,
 				904D3FEF28AB6E290039ECD1 /* StartView.swift in Sources */,
 				904D3FF528AB6E290039ECD1 /* ComplicationController.swift in Sources */,
 				904D3FED28AB6E290039ECD1 /* JHU_Gait_WatchAppApp.swift in Sources */,
+				9007ED0C28B5D52800E61AB8 /* SummaryView.swift in Sources */,
 				904D3FF328AB6E290039ECD1 /* NotificationView.swift in Sources */,
 				904D401B28ABD59B0039ECD1 /* SessionPagingView.swift in Sources */,
 			);

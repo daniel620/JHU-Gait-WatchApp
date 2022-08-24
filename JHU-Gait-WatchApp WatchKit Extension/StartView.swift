@@ -12,18 +12,19 @@ struct StartView: View {
     var workoutTypes : [HKWorkoutActivityType] = [.cycling, .running, .walking]
     
     var body: some View {
-//        Text("Hello, World!")
-//            .padding()
+        //        Text("Hello, World!")
+        //            .padding()
         List(workoutTypes) {workoutType in
             NavigationLink(
-//                The navigation links to the destination and here will be a text view.
+                //                The navigation links to the destination to SessionPagingView
                 workoutType.name,
-                destination: Text("my"+workoutType.name)
+//                                destination: Text("my"+workoutType.name)
+                destination: SessionPagingView()
             ).padding(
                 EdgeInsets(top: 15, leading: 5, bottom: 15, trailing: 5)
             )
         }.listStyle(.carousel)//The carousel style can provide depth view when rolling the list
-        .navigationBarTitle("Workouts")
+            .navigationBarTitle("Workouts")
     }
 }
 
@@ -38,7 +39,7 @@ extension HKWorkoutActivityType: Identifiable{
     public var id: UInt{
         rawValue
     }
-
+    
     var name: String{
         switch self{
         case .running:
